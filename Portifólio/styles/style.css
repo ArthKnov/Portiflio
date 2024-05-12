@@ -1,28 +1,24 @@
-
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(17, 17, 17);
     color: #f9f9f9;
-    /* background-image: url(/imagens/gif/2.gif); */
+    background-image: url(/imagens/gif/2.gif);
     font-family: 'Mirage';
 }
 
-/* Header */
 .header {
     width: 100%;
     background-color: rgb(0, 0, 0);
     color: #fff;
     padding: 10px 0;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
-/* Roadmap */
 .roadmap {
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
 }
 
 .roadmap a {
@@ -32,18 +28,16 @@ body {
     padding: 20px;
 }
 
-/* Hover do Roadmap */
 .roadmap a:hover {
     color: #919191;
 }
 
-/* Seções */
 section {
     padding: 20px;
     margin: 20px 0;
 }
 
-#habilidades h2{
+#habilidades h2 {
     font-size: 40px;
 }
 
@@ -52,7 +46,6 @@ section {
     margin-bottom: 10px;
 }
 
-/* Footer */
 footer {
     bottom: 0;
     width: 100%;
@@ -62,29 +55,32 @@ footer p {
     text-align: center;
 }
 
-/* Seção de Início */
 #inicio {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 40px 4%;
 }
+
 .conteudo {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1300px; 
+    max-width: 1300px;
 }
+
 .apresentacao {
     flex: 1;
-    margin-right: 130px; 
+    margin-right: 130px;
     font-size: 19px;
 }
+
 .foto_perfil {
     flex: 1;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
 }
+
 .foto_perfil img {
     width: 650px;
     height: 660px;
@@ -94,9 +90,9 @@ footer p {
 @font-face {
     font-family: 'Mirage';
     src: url(../fontes/caviar_dreams/CaviarDreams_Italic.ttf) format('truetype');
-  }
+}
 
-  #habilidades {
+#habilidades {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,20 +100,20 @@ footer p {
 
 .habilidades_container {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1000px; 
-    margin-top: 20px; 
+    max-width: 1000px;
+    margin-top: 20px;
 }
 
 .habilidade {
-    width: calc(33.33% - 20px); 
-    margin-bottom: 20px; 
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
 }
 
 .habilidade_foto {
     flex: 0 0 auto;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .habilidades_texto {
@@ -137,13 +133,14 @@ footer p {
 }
 
 .imagem-container {
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .imagem {
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
+
 }
 
 .imagem:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
